@@ -1,0 +1,8 @@
+seg=int(input("Por favor, entre com o número de segundos que deseja converter:"))
+dias=seg//(60*60*24)
+segRest=seg%(60*60*24)
+horas=segRest//(60*60)
+segRest=segRest%(60*60)
+minutos=segRest//(60)
+segRest=segRest%(60)
+print(dias,"dias,",horas,"horas,",minutos,"minutos e",segRest,"segundos.")
