@@ -6,12 +6,13 @@ def main():
         campeonato()
 
 def partida()
-    jogo()
+    n=int(input("Quantas peças? "))
+    m=int(input("Limite de peças por jogada? "))
+    jogo(n,m)
 def campeonato()
-    jogo()
-def jogo()
-    n=int(input("Valor de n: "))
-    m=int(input("Valor de m: "))
+    partida()
+def jogo(n,m)
+    if n
     
 """$ > python3 jogo_nim.py
 

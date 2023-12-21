@@ -8,3 +8,5 @@ def fizzbuzz(x):
         return 'Buzz'
     else:
         return x
+    
+fizzbuzz(15)
